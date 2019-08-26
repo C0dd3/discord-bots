@@ -39,7 +39,7 @@ client.on("message", async message => {
 
     if(comando === "!ping") {
         const msg = await message.channel.send("Ping?");
-        msg.edit(`Pong! A Latência é ${msg.createdTimestamp - messageUnhandledPromiseRejectionWarning: Error: An invalid token was provided.createdTimestamp}ms. A Latência da API é ${Math.round(client.ping)}ms.`);
+        msg.edit(`Pong! A Latência é ${msg.createdTimestamp - message.createdTimestamp}ms. A Latência da API é ${Math.round(client.ping)}ms.`);
     }
 
 });
