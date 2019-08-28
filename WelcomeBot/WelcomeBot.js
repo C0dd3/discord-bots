@@ -2,6 +2,8 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require("C:/Users/Vicente/Documents/Discord/WelcomeBot/config.json");
 
+require('dotenv').config({path: 'key.env'});
+
 /** 
  *  Iniciando Bot
 */
@@ -44,5 +46,5 @@ client.on("message", async message => {
 
 });
 
-client.login(config.token);
+client.login(process.env.BOT_TOKEN);
 
