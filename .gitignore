@@ -1,4 +1,8 @@
 # Arquivos .env
 
-Welcome/src/
+.gitignore
+
+WelcomeBot/src/
 *.env
+
+WelcomeBot/src/js/node_modules/

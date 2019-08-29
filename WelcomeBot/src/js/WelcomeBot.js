@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const config = require("C:/Users/Vicente/Documents/Discord/WelcomeBot/config.json");
+const config = require("./config.json");
 
 require('dotenv').config({path: 'key.env'});
 
