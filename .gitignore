@@ -2,7 +2,8 @@
 
 .gitignore
 
-WelcomeBot/src/
 *.env
+
+WelcomeBot/src/js/config.json
 
 WelcomeBot/src/js/node_modules/
