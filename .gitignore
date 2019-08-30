@@ -4,6 +4,10 @@
 
 *.env
 
-WelcomeBot/src/js/config.json
+*.class
 
-WelcomeBot/src/js/node_modules/
+WelcomeBot/src/js/Jimp.js
+
+WelcomeBot/src/img/
+
+
